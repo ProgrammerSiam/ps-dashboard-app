@@ -270,7 +270,7 @@ export default function UserDetailsPage() {
                         Latitude: {user.address.geo.lat}
                       </span>
                     </div>
-                    <div className="flex items-center space-x-2 ml-6">
+                    <div className="flex items-center space-x-2 ">
                       <Navigation className="w-4 h-4 text-gray-400" />
                       <span className="font-semibold">
                         Longitude: {user.address.geo.lng}
