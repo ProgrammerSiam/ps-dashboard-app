@@ -1,4 +1,4 @@
-# User Dashboard - PK Interview Task
+# User Dashboard
 
 A modern, responsive user dashboard built with Next.js, TypeScript, Tailwind CSS, and Framer Motion. This application fetches user data from the JSONPlaceholder API and provides a beautiful interface for browsing and searching users.
 
@@ -47,11 +47,21 @@ dashboard-app/
 │   ├── Layout.tsx           # Main layout component with navigation
 │   ├── SearchBar.tsx        # Search input with clear functionality
 │   ├── UserCard.tsx         # Individual user card component
-│   ├── Pagination.tsx       # Pagination controls
-│   └── LoadingSpinner.tsx   # Loading animation component
+│   └── Pagination.tsx       # Pagination controls
 ├── hooks/
 │   ├── useUsers.ts          # Custom hook for user data management
 │   └── useSearch.ts         # Custom hook for search functionality
+├── skeletons/               # Loading skeleton components
+│   ├── HeaderSkeleton.tsx
+│   ├── InfoCardSkeleton.tsx
+│   ├── LoadingSpinner.tsx
+│   ├── PageSkeleton.tsx
+│   ├── PaginationSkeleton.tsx
+│   ├── ResultsCountSkeleton.tsx
+│   ├── SearchBarSkeleton.tsx
+│   ├── UserCardSkeleton.tsx
+│   ├── UserDetailsSkeleton.tsx
+│   └── UserHeaderSkeleton.tsx
 ├── types/
 │   └── user.types.ts        # TypeScript interfaces for user data
 ├── utils/
@@ -193,10 +203,3 @@ The application uses the following JSONPlaceholder API endpoints:
 4. Test thoroughly
 5. Submit a pull request
 
-## 📄 License
-
-This project is created for the PK Interview Task. All rights reserved.
-
----
-
-**Built with ❤️ using Next.js, TypeScript, and Framer Motion**
