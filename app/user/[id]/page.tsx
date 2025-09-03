@@ -11,7 +11,6 @@ import {
   Mail,
   Phone,
   Globe,
-  MapPin,
   Building,
   User as UserIcon,
   Navigation,

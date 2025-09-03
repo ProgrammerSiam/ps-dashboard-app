@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { ArrowLeft, Home, Users } from "lucide-react";
+import { ArrowLeft, } from "lucide-react";
 
 interface LayoutProps {
   children: React.ReactNode;
