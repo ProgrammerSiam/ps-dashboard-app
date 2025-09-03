@@ -70,18 +70,7 @@ export default function Layout({
         {children}
       </main>
 
-      {/* Footer */}
-      <motion.footer
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 0.5 }}
-        className="mt-20 text-center py-8 border-t border-gray-200/50"
-      >
-        <div className="text-sm text-gray-500">
-          <p>Built with Next.js, TypeScript, and Tailwind CSS</p>
-          <p className="mt-1">© 2024 User Dashboard. All rights reserved.</p>
-        </div>
-      </motion.footer>
+   
     </div>
   );
 }

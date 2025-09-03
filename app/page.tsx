@@ -6,7 +6,7 @@ import Layout from "@/components/Layout";
 import SearchBar from "@/components/SearchBar";
 import UserCard from "@/components/UserCard";
 import Pagination from "@/components/Pagination";
-import PageSkeleton from "@/components/PageSkeleton";
+import PageSkeleton from "@/skeletons/PageSkeleton";
 import { useUsers } from "@/hooks/useUsers";
 import { useSearch } from "@/hooks/useSearch";
 import { paginateUsers } from "@/utils/api";

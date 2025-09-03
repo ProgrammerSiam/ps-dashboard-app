@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { useParams } from "next/navigation";
 import Layout from "@/components/Layout";
-import UserDetailsSkeleton from "@/components/UserDetailsSkeleton";
+import UserDetailsSkeleton from "@/skeletons/UserDetailsSkeleton";
 import { fetchUserById } from "@/utils/api";
 import { User } from "@/types/user.types";
 import {
