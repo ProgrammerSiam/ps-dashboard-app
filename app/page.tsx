@@ -85,7 +85,7 @@ export default function HomePage() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="text-5xl font-bold text-gray-900 mb-4 leading-tight"
           >
-            User Dashboard
+            User Dashboard 
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: -20 }}

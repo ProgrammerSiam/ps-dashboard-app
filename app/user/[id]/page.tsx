@@ -112,8 +112,10 @@ export default function UserDetailsPage() {
             </span>
             <span className="flex items-center space-x-2 bg-green-50 text-green-700 px-4 py-2 rounded-full font-medium">
               <Globe className="w-4 h-4" />
-              {user.website}
-            </span>
+              <Link href={"https://" + user.website}>
+                {user.website}
+              </Link>         
+                 </span>
           </div>
         </motion.div>
 
@@ -139,7 +141,8 @@ export default function UserDetailsPage() {
                     Email Address
                   </div>
                   <div className="text-gray-900 font-semibold break-all">
-                    {user.email}
+                   
+                   <Link href={"mailto:" + user.email} target="_blank">{user.email}</Link>
                   </div>
                 </div>
               </div>
@@ -150,7 +153,8 @@ export default function UserDetailsPage() {
                     Phone Number
                   </div>
                   <div className="text-gray-900 font-semibold">
-                    {user.phone}
+                   
+                   <Link href={"tel:" + user.phone} target="_blank">{user.phone}</Link>
                   </div>
                 </div>
               </div>
@@ -161,7 +165,8 @@ export default function UserDetailsPage() {
                     Website
                   </div>
                   <div className="text-blue-600 font-semibold flex items-center space-x-2">
-                    <span>{user.website}</span>
+                    
+                    <Link href={"https://" + user.website} target="_blank">{user.website}</Link>
                     <ExternalLink className="w-4 h-4" />
                   </div>
                 </div>
