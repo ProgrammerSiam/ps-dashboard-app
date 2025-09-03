@@ -22,8 +22,8 @@ export default function UserCard({ user, index }: UserCardProps) {
       }}
       className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 overflow-hidden hover:border-blue-200"
     >
-      <Link href={`/user/${user.id}`} className="block p-8">
-        <div className="flex items-start space-x-6">
+      <Link href={`/user/${user.id}`} className="block p-4 sm:p-6 md:p-8">
+        <div className="flex  items-start space-x-6">
           {/* Avatar */}
           <div className="flex-shrink-0">
             <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl flex items-center justify-center text-white font-bold text-2xl shadow-lg group-hover:shadow-xl transition-all duration-300 group-hover:scale-110">
@@ -84,6 +84,8 @@ export default function UserCard({ user, index }: UserCardProps) {
             </div>
           </div>
         </motion.div>
+
+       
       </Link>
     </motion.div>
   );
