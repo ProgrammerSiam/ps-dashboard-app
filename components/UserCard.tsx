@@ -84,18 +84,6 @@ export default function UserCard({ user, index }: UserCardProps) {
             </div>
           </div>
         </motion.div>
-
-        {/* Hover Indicator */}
-        <motion.div
-          className="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-200"
-          initial={{ opacity: 0, scale: 0.8 }}
-          animate={{ opacity: 0, scale: 0.8 }}
-          whileHover={{ opacity: 1, scale: 1 }}
-        >
-          <div className="bg-blue-500 text-white text-xs px-2 py-1 rounded-full font-medium">
-            View Details
-          </div>
-        </motion.div>
       </Link>
     </motion.div>
   );
